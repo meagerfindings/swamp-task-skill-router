@@ -1,0 +1,16 @@
+manifestVersion: 1
+name: "@mgreten/task-skill-router"
+version: "2026.07.26.1"
+description: >
+  Deterministically selects repository-local skills for a task and composes a bounded agent prompt from configurable path and stage rules.
+
+repository: https://github.com/meagerfindings/swamp-task-skill-router
+
+models:
+  - task_skill_router.ts
+
+additionalFiles:
+  - README.md
+  - LICENSE.txt
+
+platforms: []
